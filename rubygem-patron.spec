@@ -4,7 +4,7 @@
 #
 Name     : rubygem-patron
 Version  : 0.4.18
-Release  : 4
+Release  : 5
 URL      : https://rubygems.org/downloads/patron-0.4.18.gem
 Source0  : https://rubygems.org/downloads/patron-0.4.18.gem
 Summary  : No detailed summary available
@@ -12,6 +12,8 @@ Group    : Development/Tools
 License  : MIT
 Requires: rubygem-patron-lib
 BuildRequires : curl-dev
+BuildRequires : libidn-dev
+BuildRequires : openssl-dev
 BuildRequires : ruby
 BuildRequires : rubygem-bundler
 BuildRequires : rubygem-devise
@@ -24,6 +26,7 @@ BuildRequires : rubygem-rspec-expectations
 BuildRequires : rubygem-rspec-mocks
 BuildRequires : rubygem-rspec-support
 BuildRequires : rubygem-simplecov
+BuildRequires : zlib-dev
 
 %description
 = Ruby HTTP Client
